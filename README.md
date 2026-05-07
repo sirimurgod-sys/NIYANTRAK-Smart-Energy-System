@@ -199,8 +199,8 @@ NIYANTRAK-Smart-Energy-System/
 
 ## 👥 Team
 
-| Name | Role |
-|------|------|
+| Name |
+|------|
 | Siri M | 
 | Saubalini GV |
 | Varsha B | 
