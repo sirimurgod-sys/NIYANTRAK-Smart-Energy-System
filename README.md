@@ -152,7 +152,7 @@ Live simulation built in **Wokwi** demonstrating:
 
 ## 📐 System Architecture
 
-![System Architecture](docs/system_architecture.png)
+![System Architecture](docs/Niyantrak_System_Architecture.png)
 
 ---
 
