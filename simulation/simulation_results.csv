@@ -1,0 +1,49 @@
+timestamp_s,controller,measured_load_W,state,action,fan_percent,heater_percent,ac_temp_C,relay,estimated_load_W,notes
+0,PRIMARY,0,INITIALIZING,System boot,-,-,-,-,-,Startup sequence
+3,PRIMARY,1239,NORMAL,No action,100,100,24,ON,-,All devices at full capacity
+4,PRIMARY,1239,NORMAL,No action,100,100,24,ON,-,All devices at full capacity
+5,PRIMARY,429,NORMAL,No action,100,100,24,ON,-,Load dropped
+6,PRIMARY,1031,NORMAL,No action,100,100,24,ON,-,Normal operation
+7,PRIMARY,859,NORMAL,No action,100,100,24,ON,-,Normal operation
+8,PRIMARY,1379,NORMAL,No action,100,100,24,ON,-,Approaching warning threshold
+9,PRIMARY,1849,WARNING,Proactive optimization,85,80,26,ON,1679,Load reduced proactively
+10,PRIMARY,2129,CRITICAL,Stage 1 - Reducing Heater,85,60,26,ON,1859,Heater reduced to 60%
+11,PRIMARY,2419,CRITICAL,Stage 1 - Reducing Heater,85,60,26,ON,2149,Heater reduction continues
+11,PRIMARY,2419,CRITICAL,Stage 2 - Reducing Heater,85,40,26,ON,2049,Heater reduced to 40%
+11,PRIMARY,2419,CRITICAL,Stage 3 - Reducing Heater,85,20,26,ON,1949,Load stabilized,Load within safe limits
+12,PRIMARY,3000,CRITICAL,Stage 1 - Reducing Heater,85,0,26,ON,2430,Heater cut to 0%
+12,PRIMARY,3000,CRITICAL,Stage 2 - Reducing Fan,75,0,26,ON,2410,Fan reduced to 75%
+12,PRIMARY,3000,CRITICAL,Stage 3 - Reducing Fan,65,0,26,ON,2390,Fan reduced to 65%
+12,PRIMARY,3000,CRITICAL,Stage 4 - Reducing Fan,55,0,26,ON,2370,Fan reduced to 55%
+12,PRIMARY,3000,CRITICAL,Stage 5 - Reducing Fan,45,0,26,ON,2350,Fan reduced to 45%
+12,PRIMARY,3000,CRITICAL,Stage 6 - Reducing Fan,35,0,26,ON,2330,Fan reduced to 35%
+12,PRIMARY,3000,CRITICAL,Stage 7 - Raising AC Temp,35,0,27,ON,2310,AC temp raised to 27C
+12,PRIMARY,3000,CRITICAL,Stage 8 - Raising AC Temp,35,0,28,ON,2290,AC temp raised to 28C
+12,PRIMARY,3000,CRITICAL,Stage 9 - Raising AC Temp,35,0,29,ON,2270,AC temp raised to 29C
+12,PRIMARY,3000,CRITICAL,Stage 10 - Raising AC Temp,35,0,30,ON,2250,Maximum optimization reached
+25,FAILOVER,-,FAILOVER EVENT,Primary failed - Backup activated,-,-,-,-,-,Silent failover triggered
+26,BACKUP,1569,WARNING,Proactive optimization,85,80,26,ON,1399,Load returned to NORMAL range
+27,BACKUP,2839,CRITICAL,Stage 1 - Reducing Heater,85,60,26,ON,2569,Backup controller active
+27,BACKUP,2839,CRITICAL,Stage 2 - Reducing Heater,85,40,26,ON,2469,Heater reduction continues
+27,BACKUP,2839,CRITICAL,Stage 3 - Reducing Heater,85,20,26,ON,2369,Heater reduction continues
+27,BACKUP,2839,CRITICAL,Stage 4 - Reducing Heater,85,0,26,ON,2269,Heater cut to 0%
+27,BACKUP,2839,CRITICAL,Stage 5 - Reducing Fan,75,0,26,ON,2249,Fan reduction begins
+27,BACKUP,2839,CRITICAL,Stage 6 - Reducing Fan,65,0,26,ON,2229,Fan reduced
+27,BACKUP,2839,CRITICAL,Stage 7 - Reducing Fan,55,0,26,ON,2209,Fan reduced
+27,BACKUP,2839,CRITICAL,Stage 8 - Reducing Fan,45,0,26,ON,2189,Fan reduced
+27,BACKUP,2839,CRITICAL,Stage 9 - Reducing Fan,35,0,26,ON,2169,Fan reduced to 35%
+27,BACKUP,2839,CRITICAL,Stage 10 - Raising AC Temp,35,0,27,ON,2149,Maximum optimization reached
+28,BACKUP,3000,CRITICAL,Stage 1 - Raising AC Temp,35,0,28,ON,2290,AC temp raising continues
+28,BACKUP,3000,CRITICAL,Stage 2 - Raising AC Temp,35,0,29,ON,2270,AC temp raised
+28,BACKUP,3000,CRITICAL,Stage 3 - Raising AC Temp,35,0,30,ON,2250,AC temp raised
+28,BACKUP,3000,CRITICAL,Stage 4 - Raising AC Temp,35,0,31,ON,2230,AC temp raised
+28,BACKUP,3000,CRITICAL,Stage 5 - Raising AC Temp,35,0,32,ON,2210,AC temp at maximum
+28,BACKUP,3000,CRITICAL,Stage 6 - AC Relay CUT,35,0,32,OFF,1410,AC relay cut - last resort
+28,BACKUP,3000,CRITICAL,Load Stabilized,35,0,32,OFF,1410,Load within safe limits
+29,BACKUP,3000,CRITICAL,Already stabilized,35,0,32,OFF,1410,acRelayCut flag active
+30,BACKUP,2551,CRITICAL,Already stabilized,35,0,32,OFF,1151,Load dropping
+31,BACKUP,2229,CRITICAL,Already stabilized,35,0,32,OFF,829,Load dropping further
+32,BACKUP,1279,NORMAL,AC Relay Restored,100,100,24,ON,-,Load returned to normal
+33,BACKUP,1049,NORMAL,No action,100,100,24,ON,-,Normal operation
+34,BACKUP,799,NORMAL,No action,100,100,24,ON,-,Normal operation
+35,BACKUP,300,NORMAL,No action,100,100,24,ON,-,Minimum load
