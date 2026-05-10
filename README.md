@@ -144,9 +144,9 @@ Live simulation built in **Wokwi** demonstrating:
 - Failover mechanism (primary → backup at 25s)
 - Load stabilization with relay cut
 
-![Wokwi Simulation](simulation/wokwi_simulation.png)
+![Wokwi Circuit](simulation/wokwi_circuit_screenshot.png)
 
-![Serial Output](simulation/serial_output_screenshot.png)
+![Wokwi Simulation](simulation/wokwi_simulation.png)
 
 ---
 
