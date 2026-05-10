@@ -150,6 +150,8 @@ Live simulation built in **Wokwi** demonstrating:
 
 📊 [View Complete Simulation Data](simulation/simulation_results.csv)
 
+![Load Comparison](docs/load_comparison_graph.png)
+
 ---
 
 ## 📐 System Architecture
