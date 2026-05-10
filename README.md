@@ -148,6 +148,8 @@ Live simulation built in **Wokwi** demonstrating:
 
 ![Wokwi Simulation](simulation/wokwi_simulation.png)
 
+📊 [View Complete Simulation Data](simulation/simulation_results.csv)
+
 ---
 
 ## 📐 System Architecture
