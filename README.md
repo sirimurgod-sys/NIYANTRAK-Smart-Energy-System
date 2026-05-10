@@ -166,11 +166,11 @@ NIYANTRAK-Smart-Energy-System/
 ├── src/
 │   └── niyantrak_v3.2.ino
 ├── simulation/
-│   ├── wokwi_circuit_screenshot.png
-│   ├── serial_output_screenshot.png
+│   ├── wokwi_simulation.png
 │   └── simulation_results.csv
 ├── docs/
-│   └── system_architecture.png
+│   ├── Niyantrak_System_Architecture.png
+│   └── load_comparison_graph.png
 ├── presentation/
 │   └── NIYANTRAK_PPT.pdf
 └── README.md
