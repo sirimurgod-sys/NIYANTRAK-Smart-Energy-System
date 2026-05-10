@@ -146,7 +146,7 @@ Live simulation built in **Wokwi** demonstrating:
 
 ![Wokwi Circuit](simulation/wokwi_circuit_screenshot.png)
 
-![Wokwi Simulation](simulation/wokwi_simulation.png)
+[![Wokwi Simulation](simulation/wokwi_simulation.png)](https://wokwi.com/projects/463331078045841409)
 
 📊 [View Complete Simulation Data](simulation/simulation_results.csv)
 
