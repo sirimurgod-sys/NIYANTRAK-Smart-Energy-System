@@ -207,7 +207,6 @@ NIYANTRAK-Smart-Energy-System/
 |------|
 | Siri M | 
 | Saubalini GV |
-| Varsha B | 
 
 ---
 
