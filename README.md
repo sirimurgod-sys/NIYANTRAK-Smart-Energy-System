@@ -162,18 +162,23 @@ Live simulation built in **Wokwi** demonstrating:
 
 ## 📁 Repository Structure
 
-NIYANTRAK-Smart-Energy-System/
-├── src/
-│   └── niyantrak_v3.2.ino
-├── simulation/
-│   ├── wokwi_simulation.png
-│   └── simulation_results.csv
-├── docs/
-│   ├── Niyantrak_System_Architecture.png
-│   └── load_comparison_graph.png
-├── presentation/
-│   └── NIYANTRAK_PPT.pdf
-└── README.md
+* **NIYANTRAK-Smart-Energy-System/**
+
+  * **src/**
+
+    * `niyantrak_v3.2.ino`
+  * **simulation/**
+
+    * `wokwi_simulation.png`
+    * `simulation_results.csv`
+  * **docs/**
+
+    * `Niyantrak_System_Architecture.png`
+    * `load_comparison_graph.png`
+  * **presentation/**
+
+    * `NIYANTRAK_PPT.pdf`
+  * `README.md`
 
 ---
 
