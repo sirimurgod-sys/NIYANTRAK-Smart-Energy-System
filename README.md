@@ -158,6 +158,11 @@ Live simulation built in **Wokwi** demonstrating:
 
 ![System Architecture](docs/Niyantrak_System_Architecture.png)
 
+
+## 📄 Project Presentation
+
+👉 [View NIYANTRAK Presentation (PDF)](presentation/presentationNIYANTRAK_PPT.pdf)
+
 ---
 
 ## 📁 Repository Structure
