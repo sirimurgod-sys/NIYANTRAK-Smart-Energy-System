@@ -161,7 +161,7 @@ Live simulation built in **Wokwi** demonstrating:
 
 ## 📄 Project Presentation
 
-👉 [View NIYANTRAK Presentation (PDF)](presentation/presentationNIYANTRAK_PPT.pdf)
+👉 **[View NIYANTRAK Presentation (PDF)](./presentation/presentationNIYANTRAK_PPT.pdf)**
 
 ---
 
