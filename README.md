@@ -1,5 +1,14 @@
-# ⚡ NIYANTRAK
-### Control Your Power Before It Controls You
+<h1 align="center">⚡ NIYANTRAK</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/ESP32-Microcontroller-blue" alt="ESP32">
+  <img src="https://img.shields.io/badge/Simulation-Wokwi-orange" alt="Simulation">
+  <img src="https://img.shields.io/badge/Communication-Zigbee-green" alt="Communication">
+  <img src="https://img.shields.io/badge/Status-Prototype-yellow" alt="Status">
+  <img src="https://img.shields.io/badge/License-MIT-red" alt="License">
+</p>
+
+<h3 align="center">Control Your Power Before It Controls You</h3>
 
 > ESP32-based smart residential energy optimization system for proactive 
 > overload prevention featuring dual-controller failover, Zigbee-based 
