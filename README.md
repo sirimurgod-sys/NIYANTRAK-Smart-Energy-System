@@ -177,7 +177,7 @@ Live simulation built in **Wokwi** demonstrating:
     * `load_comparison_graph.png`
   * **presentation/**
 
-    * `NIYANTRAK_PPT.pdf`
+    * `presentationNIYANTRAK_PPT.pdf`
   * `README.md`
 
 ---
