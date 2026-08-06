@@ -172,6 +172,14 @@ Live simulation built in **Wokwi** demonstrating:
 
 👉 **[View NIYANTRAK Presentation (PDF)](presentation/presentationNIYANTRAK_PPT.pdf.pdf)**
 
+
+## 🎥 Project Demo
+
+Watch the NIYANTRAK demonstration video:
+
+[▶️ Watch Demo Video](demo/NIYANTRAK_Demo.mp4)
+
+> **Note:** The demonstration video was generated using **HeyGen AI** based on the NIYANTRAK system designed and developed by the project team.
 ---
 
 ## 📁 Repository Structure
